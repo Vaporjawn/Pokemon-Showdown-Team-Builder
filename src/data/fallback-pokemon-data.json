@@ -1,0 +1,510 @@
+{
+  "pokemon": {
+    "bulbasaur": {
+      "id": 1,
+      "name": "bulbasaur",
+      "base_experience": 64,
+      "height": 7,
+      "weight": 69,
+      "types": [
+        { "slot": 1, "type": { "name": "grass" } },
+        { "slot": 2, "type": { "name": "poison" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "overgrow" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "chlorophyll" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 45, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 49, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 49, "effort": 0, "stat": { "name": "defense" } },
+        { "base_stat": 65, "effort": 1, "stat": { "name": "special-attack" } },
+        { "base_stat": 65, "effort": 0, "stat": { "name": "special-defense" } },
+        { "base_stat": 45, "effort": 0, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png"
+      }
+    },
+    "ivysaur": {
+      "id": 2,
+      "name": "ivysaur",
+      "base_experience": 142,
+      "height": 10,
+      "weight": 130,
+      "types": [
+        { "slot": 1, "type": { "name": "grass" } },
+        { "slot": 2, "type": { "name": "poison" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "overgrow" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "chlorophyll" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 60, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 62, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 63, "effort": 0, "stat": { "name": "defense" } },
+        { "base_stat": 80, "effort": 1, "stat": { "name": "special-attack" } },
+        { "base_stat": 80, "effort": 1, "stat": { "name": "special-defense" } },
+        { "base_stat": 60, "effort": 0, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png"
+      }
+    },
+    "venusaur": {
+      "id": 3,
+      "name": "venusaur",
+      "base_experience": 263,
+      "height": 20,
+      "weight": 1000,
+      "types": [
+        { "slot": 1, "type": { "name": "grass" } },
+        { "slot": 2, "type": { "name": "poison" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "overgrow" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "chlorophyll" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 80, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 82, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 83, "effort": 0, "stat": { "name": "defense" } },
+        { "base_stat": 100, "effort": 2, "stat": { "name": "special-attack" } },
+        { "base_stat": 100, "effort": 1, "stat": { "name": "special-defense" } },
+        { "base_stat": 80, "effort": 0, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png"
+      }
+    },
+    "charmander": {
+      "id": 4,
+      "name": "charmander",
+      "base_experience": 62,
+      "height": 6,
+      "weight": 85,
+      "types": [
+        { "slot": 1, "type": { "name": "fire" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "blaze" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "solar-power" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 39, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 52, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 43, "effort": 0, "stat": { "name": "defense" } },
+        { "base_stat": 60, "effort": 0, "stat": { "name": "special-attack" } },
+        { "base_stat": 50, "effort": 0, "stat": { "name": "special-defense" } },
+        { "base_stat": 65, "effort": 1, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png"
+      }
+    },
+    "charmeleon": {
+      "id": 5,
+      "name": "charmeleon",
+      "base_experience": 142,
+      "height": 11,
+      "weight": 190,
+      "types": [
+        { "slot": 1, "type": { "name": "fire" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "blaze" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "solar-power" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 58, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 64, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 58, "effort": 0, "stat": { "name": "defense" } },
+        { "base_stat": 80, "effort": 1, "stat": { "name": "special-attack" } },
+        { "base_stat": 65, "effort": 0, "stat": { "name": "special-defense" } },
+        { "base_stat": 80, "effort": 1, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png"
+      }
+    },
+    "charizard": {
+      "id": 6,
+      "name": "charizard",
+      "base_experience": 267,
+      "height": 17,
+      "weight": 905,
+      "types": [
+        { "slot": 1, "type": { "name": "fire" } },
+        { "slot": 2, "type": { "name": "flying" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "blaze" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "solar-power" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 78, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 84, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 78, "effort": 0, "stat": { "name": "defense" } },
+        { "base_stat": 109, "effort": 3, "stat": { "name": "special-attack" } },
+        { "base_stat": 85, "effort": 0, "stat": { "name": "special-defense" } },
+        { "base_stat": 100, "effort": 0, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png"
+      }
+    },
+    "squirtle": {
+      "id": 7,
+      "name": "squirtle",
+      "base_experience": 63,
+      "height": 5,
+      "weight": 90,
+      "types": [
+        { "slot": 1, "type": { "name": "water" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "torrent" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "rain-dish" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 44, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 48, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 65, "effort": 1, "stat": { "name": "defense" } },
+        { "base_stat": 50, "effort": 0, "stat": { "name": "special-attack" } },
+        { "base_stat": 64, "effort": 0, "stat": { "name": "special-defense" } },
+        { "base_stat": 43, "effort": 0, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png"
+      }
+    },
+    "wartortle": {
+      "id": 8,
+      "name": "wartortle",
+      "base_experience": 142,
+      "height": 10,
+      "weight": 225,
+      "types": [
+        { "slot": 1, "type": { "name": "water" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "torrent" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "rain-dish" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 59, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 63, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 80, "effort": 1, "stat": { "name": "defense" } },
+        { "base_stat": 65, "effort": 0, "stat": { "name": "special-attack" } },
+        { "base_stat": 80, "effort": 1, "stat": { "name": "special-defense" } },
+        { "base_stat": 58, "effort": 0, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png"
+      }
+    },
+    "blastoise": {
+      "id": 9,
+      "name": "blastoise",
+      "base_experience": 265,
+      "height": 16,
+      "weight": 855,
+      "types": [
+        { "slot": 1, "type": { "name": "water" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "torrent" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "rain-dish" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 79, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 83, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 100, "effort": 0, "stat": { "name": "defense" } },
+        { "base_stat": 85, "effort": 0, "stat": { "name": "special-attack" } },
+        { "base_stat": 105, "effort": 3, "stat": { "name": "special-defense" } },
+        { "base_stat": 78, "effort": 0, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/9.png"
+      }
+    },
+    "pikachu": {
+      "id": 25,
+      "name": "pikachu",
+      "base_experience": 112,
+      "height": 4,
+      "weight": 60,
+      "types": [
+        { "slot": 1, "type": { "name": "electric" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "static" }, "is_hidden": false, "slot": 1 },
+        { "ability": { "name": "lightning-rod" }, "is_hidden": true, "slot": 3 }
+      ],
+      "stats": [
+        { "base_stat": 35, "effort": 0, "stat": { "name": "hp" } },
+        { "base_stat": 55, "effort": 0, "stat": { "name": "attack" } },
+        { "base_stat": 40, "effort": 0, "stat": { "name": "defense" } },
+        { "base_stat": 50, "effort": 0, "stat": { "name": "special-attack" } },
+        { "base_stat": 50, "effort": 0, "stat": { "name": "special-defense" } },
+        { "base_stat": 90, "effort": 2, "stat": { "name": "speed" } }
+      ],
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png"
+      }
+    }
+  },
+  "moves": [
+    {
+      "id": 1,
+      "name": "pound",
+      "power": 40,
+      "pp": 35,
+      "accuracy": 100,
+      "type": { "name": "normal" },
+      "damage_class": { "name": "physical" },
+      "effect_entries": [
+        { "effect": "Inflicts regular damage with no additional effect.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "karate-chop",
+      "power": 50,
+      "pp": 25,
+      "accuracy": 100,
+      "type": { "name": "fighting" },
+      "damage_class": { "name": "physical" },
+      "effect_entries": [
+        { "effect": "Has an increased chance for a critical hit.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "double-slap",
+      "power": 15,
+      "pp": 10,
+      "accuracy": 85,
+      "type": { "name": "normal" },
+      "damage_class": { "name": "physical" },
+      "effect_entries": [
+        { "effect": "Hits 2-5 times in one turn.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "tackle",
+      "power": 40,
+      "pp": 35,
+      "accuracy": 100,
+      "type": { "name": "normal" },
+      "damage_class": { "name": "physical" },
+      "effect_entries": [
+        { "effect": "Inflicts regular damage with no additional effect.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "growl",
+      "power": null,
+      "pp": 40,
+      "accuracy": 100,
+      "type": { "name": "normal" },
+      "damage_class": { "name": "status" },
+      "effect_entries": [
+        { "effect": "Lowers the target's Attack by one stage.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "vine-whip",
+      "power": 45,
+      "pp": 25,
+      "accuracy": 100,
+      "type": { "name": "grass" },
+      "damage_class": { "name": "physical" },
+      "effect_entries": [
+        { "effect": "Inflicts regular damage with no additional effect.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "leech-seed",
+      "power": null,
+      "pp": 10,
+      "accuracy": 90,
+      "type": { "name": "grass" },
+      "damage_class": { "name": "status" },
+      "effect_entries": [
+        { "effect": "Seeds the target, stealing HP from it every turn.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "ember",
+      "power": 40,
+      "pp": 25,
+      "accuracy": 100,
+      "type": { "name": "fire" },
+      "damage_class": { "name": "special" },
+      "effect_entries": [
+        { "effect": "Has a 10% chance to burn the target.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "tail-whip",
+      "power": null,
+      "pp": 30,
+      "accuracy": 100,
+      "type": { "name": "normal" },
+      "damage_class": { "name": "status" },
+      "effect_entries": [
+        { "effect": "Lowers the target's Defense by one stage.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "water-gun",
+      "power": 40,
+      "pp": 25,
+      "accuracy": 100,
+      "type": { "name": "water" },
+      "damage_class": { "name": "special" },
+      "effect_entries": [
+        { "effect": "Inflicts regular damage with no additional effect.", "language": { "name": "en" } }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "master-ball",
+      "cost": 0,
+      "fling_power": 10,
+      "category": { "name": "standard-balls" },
+      "effect_entries": [
+        { "effect": "Catches any wild Pokémon without fail.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 234,
+      "name": "leftovers",
+      "cost": 200,
+      "fling_power": 10,
+      "category": { "name": "healing" },
+      "effect_entries": [
+        { "effect": "Restores 1/16 of the holder's max HP at the end of each turn.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 245,
+      "name": "focus-band",
+      "cost": 200,
+      "fling_power": 10,
+      "category": { "name": "in-battle" },
+      "effect_entries": [
+        { "effect": "Holder has a 10% chance to survive an attack that would KO it with 1 HP.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 214,
+      "name": "cheri-berry",
+      "cost": 20,
+      "fling_power": 10,
+      "category": { "name": "healing" },
+      "effect_entries": [
+        { "effect": "Held: When paralyzed, consumes this item to cure paralysis.", "language": { "name": "en" } }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "id": 1,
+      "name": "stench",
+      "effect_entries": [
+        { "effect": "This Pokémon's damaging moves have a 10% chance to make the target flinch.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "drizzle",
+      "effect_entries": [
+        { "effect": "The weather changes to rain when this Pokémon enters battle and does not end unless cancelled by another weather condition.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "speed-boost",
+      "effect_entries": [
+        { "effect": "This Pokémon's Speed rises one stage after each turn.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "static",
+      "effect_entries": [
+        { "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "overgrow",
+      "effect_entries": [
+        { "effect": "When this Pokémon has 1/3 or less of its HP remaining, its grass-type moves inflict 1.5× as much damage.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "blaze",
+      "effect_entries": [
+        { "effect": "When this Pokémon has 1/3 or less of its HP remaining, its fire-type moves inflict 1.5× as much damage.", "language": { "name": "en" } }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "torrent",
+      "effect_entries": [
+        { "effect": "When this Pokémon has 1/3 or less of its HP remaining, its water-type moves inflict 1.5× as much damage.", "language": { "name": "en" } }
+      ]
+    }
+  ],
+  "natures": [
+    { "name": "hardy", "increased_stat": null, "decreased_stat": null },
+    { "name": "lonely", "increased_stat": "attack", "decreased_stat": "defense" },
+    { "name": "brave", "increased_stat": "attack", "decreased_stat": "speed" },
+    { "name": "adamant", "increased_stat": "attack", "decreased_stat": "special-attack" },
+    { "name": "naughty", "increased_stat": "attack", "decreased_stat": "special-defense" },
+    { "name": "bold", "increased_stat": "defense", "decreased_stat": "attack" },
+    { "name": "docile", "increased_stat": null, "decreased_stat": null },
+    { "name": "relaxed", "increased_stat": "defense", "decreased_stat": "speed" },
+    { "name": "impish", "increased_stat": "defense", "decreased_stat": "special-attack" },
+    { "name": "lax", "increased_stat": "defense", "decreased_stat": "special-defense" },
+    { "name": "timid", "increased_stat": "speed", "decreased_stat": "attack" },
+    { "name": "hasty", "increased_stat": "speed", "decreased_stat": "defense" },
+    { "name": "serious", "increased_stat": null, "decreased_stat": null },
+    { "name": "jolly", "increased_stat": "speed", "decreased_stat": "special-attack" },
+    { "name": "naive", "increased_stat": "speed", "decreased_stat": "special-defense" },
+    { "name": "modest", "increased_stat": "special-attack", "decreased_stat": "attack" },
+    { "name": "mild", "increased_stat": "special-attack", "decreased_stat": "defense" },
+    { "name": "quiet", "increased_stat": "special-attack", "decreased_stat": "speed" },
+    { "name": "bashful", "increased_stat": null, "decreased_stat": null },
+    { "name": "rash", "increased_stat": "special-attack", "decreased_stat": "special-defense" },
+    { "name": "calm", "increased_stat": "special-defense", "decreased_stat": "attack" },
+    { "name": "gentle", "increased_stat": "special-defense", "decreased_stat": "defense" },
+    { "name": "sassy", "increased_stat": "special-defense", "decreased_stat": "speed" },
+    { "name": "careful", "increased_stat": "special-defense", "decreased_stat": "special-attack" },
+    { "name": "quirky", "increased_stat": null, "decreased_stat": null }
+  ]
+}

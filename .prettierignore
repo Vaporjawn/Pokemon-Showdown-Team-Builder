@@ -1,0 +1,18 @@
+# Prettier ignore file
+dist/
+build/
+coverage/
+node_modules/
+*.min.js
+*.min.css
+public/sw.js
+CHANGELOG.md
+LICENSE
+.next/
+.nuxt/
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
